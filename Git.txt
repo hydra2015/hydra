@@ -37,5 +37,15 @@
 		该命令也可以撤回本地删除的文件
 		
 		
-	ssh-keygen -t rsa -C "youremail@example.com"		//创建SSH Key
+	ssh-keygen -t rsa -C "youremail@example.com"		//创建SSH Key、2、到GitHub添加远程库
+	git remote add origin git@github.com:michaelliao/learngit.git	//链接远程库
+	git push origin master		//推送到远程库
+	git clone git@github.com:michaelliao/gitskills.git		//从远程库拷贝下来
+	
+	git branch  查看分支
+	git branch <name>     创建分支
+	git checkout <name>    切换分支
+	git checkout -b <name>	创建+切换分支
+	git merge <name>		合并某分支到当前分支
+	git branch -d <name>	删除分支
 	
